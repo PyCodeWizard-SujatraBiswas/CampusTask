@@ -1,0 +1,12 @@
+{
+  "name": "campustask",
+  "version": "1.0.0",
+  "description": "CampusTask Lab and Assignment Management Portal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
