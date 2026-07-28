@@ -33,7 +33,12 @@ To deliver a lightweight, high-speed, and intuitive assignment portal that elimi
 - **Constraints:** Storage for local development is capped by container volume allocations; basic REST architecture without external third-party integrations.
 
 ---
+---
 
+## UI/UX Figma Wireframes
+[Click here to view Interactive Figma Prototype](https://www.figma.com/design/ZT3MxxnWpjrVg8UOVY7WgU/Untitled?node-id=0-1&t=4XYy31koofx7Xvbb-1)
+
+---
 ## MoSCoW Prioritization
 
 | Category | Features Included |
@@ -42,6 +47,18 @@ To deliver a lightweight, high-speed, and intuitive assignment portal that elimi
 | **Should Have** | Deadline Countdown Indicators, Submission Timestamping, Grade Summary View, Filter Assignments by Status (Pending/Submitted). |
 | **Could Have** | Dark Mode Toggle, Drag-and-Drop File Preview, Toast Notifications on Successful Submission. |
 | **Won't Have (for Review 1)** | Real-Time Live Chat between Student and Instructor, Push Notifications, Plagiarism Scanner Integration. |
+
+---
+---
+
+## Workload Division
+
+| PERSON A: DevOps, Architecture & Backend | PERSON B: UI/UX & Agile Docs |
+| :--- | :--- |
+| • Project Repo & Docker Configuration | • Vision Document & README.md |
+| • Backend Server Code (Node.js/Express) | • 25 GitHub User Story Issues |
+| • Architecture Diagram (Draw.io Landscape) | • 6 Figma Wireframe Screens |
+| • Execution Screenshots (Terminal/Browser) | • MoSCoW Prioritization Table |
 
 ---
 
