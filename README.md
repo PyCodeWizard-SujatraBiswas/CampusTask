@@ -1,54 +1,45 @@
-# CampusTask — University Lab & Assignment Portal
+# Eventify — Campus Event Management Portal
 
 ## Project Overview
-CampusTask is a streamlined web application designed for university environments to manage lab assignments, project submissions, and grading workflows. It provides a clean, responsive interface for students to submit coursework and for faculty to evaluate submissions efficiently.
+Eventify is a streamlined web application designed for university environments to manage campus events, ticket bookings, and organizer workflows. It provides a clean, responsive interface for students to discover events and for event organizers to manage capacity and entry passes efficiently.
 
 ## Problem Statement
-Traditional learning management systems are often bloated, slow, and overly complex for everyday lab submissions. Students face confusing submission interfaces, while faculty struggle with fragmented assignment tracking and delayed feedback loops.
+Traditional campus event coordination relies on fragmented Google forms, manual email confirmation, and slow ticket verification at venue gates, causing long queues and poor student engagement.
 
 ## Target User Personas
-1. **The Student (e.g., Alex - Computer Science Major)**
-   - **Goal:** Submit lab assignments quickly, track deadlines, and view instructor feedback/grades in one place.
-   - **Pain Point:** Confusing navigation, missing file size feedback, and lack of clarity on submission status.
-2. **The Faculty / Evaluator (e.g., Dr. Sharma - Lab Instructor)**
-   - **Goal:** Create assignment prompts, review student submissions, and assign grades seamlessly.
-   - **Pain Point:** Managing hundreds of email attachments and manually tracking submission timestamps.
+* **The Student:** Goal to browse upcoming events, reserve entry tickets, and access digital QR passes in one place.
+* **The Event Organizer / Faculty:** Goal to create event listings, set capacity caps, and monitor real-time attendee registrations.
 
 ## Vision Statement
-To deliver a lightweight, high-speed, and intuitive assignment portal that eliminates friction in university coursework management through standardized containerized delivery.
+To deliver a lightweight, high-speed campus event portal that streamlines ticket pass generation and event discovery through standardized containerized delivery.
 
 ## Key Features & Goals
-- **Role-Based Authentication:** Secure login tailored for Student and Faculty dashboards.
-- **Assignment Submission Pipeline:** Drag-and-drop submission system with timestamp validation.
-- **Faculty Evaluation Hub:** Integrated viewer for reviewing student work and publishing grades.
-- **Containerized Deployment:** Dockerized local development environment for instant setup.
+* **Role-Based Authentication:** Secure login for Students and Organizers.
+* **Event Discovery Feed:** Category filters and search functionality for upcoming campus activities.
+* **Ticket & Pass Hub:** Real-time seat tracking and digital pass generation.
+* **Containerized Deployment:** Dockerized local development environment for instant setup.
 
 ## Success Metrics
-- **Performance:** Sub-150ms API response times for fetching dashboard assignments.
-- **Usability:** Zero-overhead submission process completed in under 3 clicks from the dashboard.
-- **Reliability:** 100% environment parity between local development and production Docker containers.
+* **Performance:** Sub-150ms API response times for event feeds.
+* **Usability:** Ticket booking completed in under 3 clicks.
+* **Reliability:** 100% environment parity using Docker.
 
 ## Assumptions & Constraints
-- **Assumptions:** Users access the platform using standard WebGL/HTML5 desktop browsers.
-- **Constraints:** Storage for local development is capped by container volume allocations; basic REST architecture without external third-party integrations.
-
----
----
+* **Assumptions:** Users access the platform via standard WebGL/HTML5 desktop browsers.
+* **Constraints:** Storage capped by container volume allocations; basic REST architecture.
 
 ## UI/UX Figma Wireframes
 [Click here to view Interactive Figma Prototype](https://www.figma.com/design/ZT3MxxnWpjrVg8UOVY7WgU/Untitled?node-id=0-1&t=dMOinXLPymqkQPdZ-1)
 
----
-### MoSCoW Prioritization
+## MoSCoW Prioritization
 
 | Category | Features Included |
 | :--- | :--- |
-| **Must Have** | Role-Based Authentication (Student/Faculty), Student Dashboard, File Upload / Submission Page, Faculty Grading Interface, Dockerized Backend Setup. |
-| **Should Have** | Deadline Countdown Indicators, Submission Timestamping, Grade Summary View, Filter Assignments by Status (Pending/Submitted). |
-| **Could Have** | Dark Mode Toggle, Drag-and-Drop File Preview, Toast Notifications on Successful Submission. |
-| **Won't Have (Review 1)** | Real-Time Live Chat between Student and Instructor, Push Notifications, Plagiarism Scanner Integration. |
+| **Must Have** | Role-Based Authentication, Event Feed, Event Detail Page, Digital Ticket Pass Generator, Dockerized Setup. |
+| **Should Have** | Category Filtering, Real-time Seat Counter, Organizer Dashboard, Pass Management View. |
+| **Could Have** | Dark Mode Toggle, Event Search Bar, Toast Notifications on Booking. |
+| **Won't Have (Review 1)** | Real-time Live Chat, Payment Gateway, Push Notifications. |
 
----
 ---
 
 ## Workload Division
@@ -65,12 +56,11 @@ To deliver a lightweight, high-speed, and intuitive assignment portal that elimi
 ## Dev Setup & Local Development Strategy
 
 ### Branching Strategy (GitHub Flow)
-We strictly adhere to **GitHub Flow**:
-- `main`: Production-ready, stable codebase.
-- `feature/*`: Dedicated branches created for isolated development tasks (e.g., `feature/user-auth`, `feature/docker-setup`).
-- All changes merge back to `main` via Pull Requests.
+We strictly adhere to GitHub Flow:
+* `main`: Production-ready, stable codebase.
+* `feature/*`: Dedicated branches created for isolated tasks (e.g., `feature/docker-setup`).
 
 ### Quick Start – Local Development
-1. Clone repository: git clone https://github.com/PyCodeWizard-SujatraBiswas/CampusTask.git
+1. Clone repository: `git clone https://github.com/PyCodeWizard-SujatraBiswas/CampusTask.git`
 2. Run Docker containers: `docker-compose up --build`
 3. Access UI: `http://localhost:3000`
