@@ -1,7 +1,7 @@
 {
-  "name": "campustask",
+  "name": "eventify",
   "version": "1.0.0",
-  "description": "CampusTask Lab and Assignment Management Portal",
+  "description": "Eventify Campus Event Management Portal",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
