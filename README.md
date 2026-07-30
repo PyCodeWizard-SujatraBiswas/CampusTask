@@ -61,6 +61,6 @@ We strictly adhere to GitHub Flow:
 * `feature/*`: Dedicated branches created for isolated tasks (e.g., `feature/docker-setup`).
 
 ### Quick Start – Local Development
-1. Clone repository: `git clone https://github.com/PyCodeWizard-SujatraBiswas/CampusTask.git`
+1. Clone repository: `git clone https://github.com/PyCodeWizard-SujatraBiswas/Eventify.git`
 2. Run Docker containers: `docker-compose up --build`
 3. Access UI: `http://localhost:3000`
