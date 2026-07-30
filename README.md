@@ -39,14 +39,14 @@ To deliver a lightweight, high-speed, and intuitive assignment portal that elimi
 [Click here to view Interactive Figma Prototype](https://www.figma.com/design/ZT3MxxnWpjrVg8UOVY7WgU/Untitled?node-id=0-1&t=dMOinXLPymqkQPdZ-1)
 
 ---
-## MoSCoW Prioritization
+### MoSCoW Prioritization
 
 | Category | Features Included |
 | :--- | :--- |
 | **Must Have** | Role-Based Authentication (Student/Faculty), Student Dashboard, File Upload / Submission Page, Faculty Grading Interface, Dockerized Backend Setup. |
 | **Should Have** | Deadline Countdown Indicators, Submission Timestamping, Grade Summary View, Filter Assignments by Status (Pending/Submitted). |
 | **Could Have** | Dark Mode Toggle, Drag-and-Drop File Preview, Toast Notifications on Successful Submission. |
-| **Won't Have (for Review 1)** | Real-Time Live Chat between Student and Instructor, Push Notifications, Plagiarism Scanner Integration. |
+| **Won't Have (Review 1)** | Real-Time Live Chat between Student and Instructor, Push Notifications, Plagiarism Scanner Integration. |
 
 ---
 ---
@@ -71,6 +71,6 @@ We strictly adhere to **GitHub Flow**:
 - All changes merge back to `main` via Pull Requests.
 
 ### Quick Start – Local Development
-1. Clone repository: `git clone https://github.com/YOUR_USERNAME/campustask.git`
+1. Clone repository: git clone https://github.com/PyCodeWizard-SujatraBiswas/CampusTask.git
 2. Run Docker containers: `docker-compose up --build`
 3. Access UI: `http://localhost:3000`
