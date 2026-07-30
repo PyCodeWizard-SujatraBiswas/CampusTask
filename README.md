@@ -36,7 +36,7 @@ To deliver a lightweight, high-speed, and intuitive assignment portal that elimi
 ---
 
 ## UI/UX Figma Wireframes
-[Click here to view Interactive Figma Prototype](https://www.figma.com/design/ZT3MxxnWpjrVg8UOVY7WgU/Untitled?node-id=0-1&t=4XYy31koofx7Xvbb-1)
+[Click here to view Interactive Figma Prototype](https://www.figma.com/design/ZT3MxxnWpjrVg8UOVY7WgU/Untitled?node-id=0-1&t=dMOinXLPymqkQPdZ-1)
 
 ---
 ## MoSCoW Prioritization
